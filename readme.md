@@ -38,9 +38,9 @@ IMPORTANT: `Remeber to set all envs in your .env file before run.`
 
 ### Tips and Tricks
 
-For standalone usage you can override hosts configuration with volume. Append this to command above:
+For standalone usage you can override config with volume. Append this to command above:
 
-`-v ./inventory:/var/www/app/inventory`
+`-v ./config:/var/www/app/config`
 
 ## Setup Development Environment
 
